@@ -1,0 +1,127 @@
+ /* Style CSS personnalisé (facultatif) */
+ .download-buttons-container {
+    display: flex;
+    gap: -15px; /* Espacement entre les boutons */
+    align-items: center; /* Alignement vertical au centre */
+    justify-content:space-around;
+    margin: 40px;
+}
+
+.app-badge {
+    height: 50px; /* Hauteur des badges (ajuster selon vos besoins) */
+    transition: opacity 0.2s ease-in-out; /* Animation de transition pour l'opacité */
+}
+
+.app-badge:hover {
+    opacity: 0.8; /* Légère réduction de l'opacité au survol */
+}
+
+/* Style pour les liens (pour supprimer le soulignement par défaut) */
+.download-link {
+    text-decoration: none;
+}
+.NewArt {
+    background-color: rgb(16, 212, 16);
+    text-align: center;
+    padding: 20px;
+}
+
+/* card New */
+
+
+/* Normal (pas de filtre) */
+.image-hover {
+    filter: brightness(100%);
+    transition: all 0.5s ease;
+  }
+  
+  /* Quand hover seulement l'image devient plus sombre */
+  .image-hover:hover {
+    filter: brightness(40%);
+  }
+  
+  /* Cacher le bouton par défaut */
+  .image-btn {
+    display: none;
+    transition: all 0.3s ease;
+  }
+  
+  /* Lorsque l'on survole le conteneur (image + bouton), le bouton devient visible */
+  .position-relative:hover .image-btn {
+    display: block;
+  }
+   /* footer card */
+   .footerArt{
+    position: relative;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.062);
+    padding: 10px;
+    color:  rgba(0, 0, 0, 0.329);
+   }
+
+ .footerArt a{
+    color:  rgba(0, 0, 0, 0.329);
+ }
+ .footerArt a:hover{
+    transition: 0.5s;
+    color:  black;
+ }
+ .seeM{
+    text-align: center;
+    margin-top: 40px;
+ }
+ .Seemor{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #8bc34a;
+    border-radius: 12px;
+ }
+ .Seemor:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+ }
+
+ .newsletter, .partners {
+    text-align: center;
+  }
+  .newsletter div {
+    background-color: #8bc34a;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  .partners h5{
+    color: #8bc34a;
+  }
+  .newsletter p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #8bc34a;
+  }
+  .partners img {
+    width: 180px;
+    margin-top: 0px;
+    height: 90px;
+  }
+.newsletter  h5 {
+    color: #8bc34a;
+    font-weight: bold;
+  }
+
+/* 
+  image card */
+  .img-hover-dark {
+    transition: all 0.3s ease;
+  }
+  
+  .img-hover-dark:hover {
+    filter: brightness(70%);
+  }
+  
